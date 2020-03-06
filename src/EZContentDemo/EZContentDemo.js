@@ -41,7 +41,7 @@ class EZContentDemo extends React.Component {
                     <p>
                         Maybe you'd like to <span className={loadedClass}>{this.state.loaded ? 'browse some coats?' : <i className="fa fa-cog fa-spin" />}</span>
                     </p>
-                    <p> You speak <span className={loadedClass}>{this.state.loaded ? 'Japanese' : <i className="fa fa-cog fa-spin" />}</span>? Awesome, would you like to see the <span className="ezcontent">{this.state.loaded ? 'Japanese' : <i className="fa fa-cog fa-spin" />}</span> version of this site?</p>
+                    <p> You speak <span className={loadedClass}>{this.state.loaded ? 'Japanese' : <i className="fa fa-cog fa-spin" />}</span>? Awesome, would you like to see the <span className={loadedClass}><span className="ezcontent">{this.state.loaded ? 'Japanese' : <i className="fa fa-cog fa-spin" />}</span></span> version of this site?</p>
                 </Card>
             </div >
         );
