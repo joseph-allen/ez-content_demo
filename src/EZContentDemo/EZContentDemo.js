@@ -32,16 +32,16 @@ class EZContentDemo extends React.Component {
                 <p>with EZContent could be...</p>
 
                 <Card className={"ezcontent-card"}>
-                    <p><span className={loadedClass}>{this.state.loaded ? 'Good afternoon' : '...'}</span> <span className={loadedClass}>{this.state.loaded ? 'John' : '...'}</span>, Welcome to our site!
+                    <p><span className={loadedClass}>{this.state.loaded ? 'Good afternoon' : <i className="fa fa-cog fa-spin" />}</span> <span className={loadedClass}>{this.state.loaded ? 'John' : <i className="fa fa-cog fa-spin" />}</span>, Welcome to our site!
                 </p>
                     <p>
-                        We see it's a <span className={loadedClass}>{this.state.loaded ? 'sunny day' : '...'}</span> in <span className={loadedClass}>{this.state.loaded ? 'Manchester, UK' : '...'}</span>
+                        We see it's a <span className={loadedClass}>{this.state.loaded ? 'sunny day' : <i className="fa fa-cog fa-spin" />}</span> in <span className={loadedClass}>{this.state.loaded ? 'Manchester, UK' : <i className="fa fa-cog fa-spin" />}</span>
                     </p>
-                    <p>We see you are on the move on your <span className={loadedClass}>{this.state.loaded ? 'mobile' : '...'}</span>, so we've given you the <span className={loadedClass}>{this.state.loaded ? 'mobile' : '...'}</span> version of our site</p>
+                    <p>We see you are on the move on your <span className={loadedClass}>{this.state.loaded ? 'mobile' : <i className="fa fa-cog fa-spin" />}</span>, so we've given you the <span className={loadedClass}>{this.state.loaded ? 'mobile' : <i className="fa fa-cog fa-spin" />}</span> version of our site</p>
                     <p>
-                        Maybe you'd like to <span className={loadedClass}>{this.state.loaded ? 'browse some coats?' : '...'}</span>
+                        Maybe you'd like to <span className={loadedClass}>{this.state.loaded ? 'browse some coats?' : <i className="fa fa-cog fa-spin" />}</span>
                     </p>
-                    <p> You speak <span className={loadedClass}>{this.state.loaded ? 'Japanese' : '...'}</span>? Awesome, would you like to see the <span className="ezcontent">{this.state.loaded ? 'Japanese' : '...'}</span> version of this site?</p>
+                    <p> You speak <span className={loadedClass}>{this.state.loaded ? 'Japanese' : <i className="fa fa-cog fa-spin" />}</span>? Awesome, would you like to see the <span className="ezcontent">{this.state.loaded ? 'Japanese' : <i className="fa fa-cog fa-spin" />}</span> version of this site?</p>
                 </Card>
             </div >
         );
