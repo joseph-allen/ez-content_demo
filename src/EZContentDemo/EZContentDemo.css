@@ -4,8 +4,15 @@
 
 .ezcontent__loaded{
     background-color: #c5e1a5;
+    transition: background-color 0.5s, padding 1s;
+    padding: 4px;
 }
 
 .ezcontent__loading{
+    transition: background-color 0.5s, padding 1s;
     background-color: #ef9a9a;
+    padding: 0px;
+    width: 100px;
+    padding-right:32px;
+    padding-left:32px;
 }
